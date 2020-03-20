@@ -1,0 +1,173 @@
+
+.main-menu .navbar{
+
+background: linear-gradient(to right, #155799, #159957);
+  padding:0 2rem;
+}
+.main-menu .navbar img{
+	height:100px;
+	width:100px;
+}
+
+.main-menu .navbar .nav-item .nav-link{
+	color:#fff;
+	text-transform:uppercase;
+	
+	border:1px solid #fff;
+	margin-right:10px;
+	background:#000;
+	border-radius:5px;
+	
+}
+.main-menu .navbar .form input{
+	padding:10px 0;
+}
+
+.main-menu .navbar .nav-item .nav-link:hover{
+	color:#636e72;
+	background:#fff;
+	transition:1s all;
+}
+.main-header img{
+	border-radius:10px;
+}
+
+.main-header{
+	background:#7f8c8d;
+	padding:10rem 0;
+	font-family:tahoma;
+	
+
+
+
+clip-path: polygon(50% 0%, 100% 0, 100% 100%, 49% 91%, 0 100%, 0 0);
+
+
+
+
+}
+.main-header h2::after{
+	content:"";
+	height:2px;
+	width:18vw;
+	background:#fff;
+	margin-left:5%;
+	display:inline-block;
+	margin-top:-2%;
+
+}
+.primary-button a{
+	padding:10px 20px;
+	margin:20px 30px;
+}
+
+
+/* introduce*/
+
+.introduce-section h2{
+	letter-spacing:5px;
+	font-family:quick-sand;
+	margin:10px 0;
+	font-weight:500;
+}
+.introduce-section p{
+line-height:1.7;
+	font-family:tahoma;
+	margin:10px 0;
+    
+}
+.introduce-section .btn2{
+	line-height:1.7;
+	font-family:tahoma;
+   	margin:10px 0;
+	font-weight:bold;
+	background:linear-gradient(to right, #155799, #159957);
+	color:#fff;
+	border:1px solid #000;
+    
+}
+
+/*brand-section*/
+.brand-section img{
+	margin:20px 10px;
+	border:1px solid #EBEBF5;
+	padding:30px;
+	transition:1s;
+	height:100%vh;
+	width:180px;
+}
+.brand-section img:hover{
+	box-shadow: 0px 10px 30px rgba(55,56,57,0.22);
+	filter:brightness(0.15);
+	border:none;
+	transform:scale(1.1);
+	transition:1 sec all;
+}
+
+/*experience area*/
+.brand-section{
+	background:rgba(50,120,146,0.7);
+	
+	opacity:2;
+}
+.experience-section{
+	background:url(images/a.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:545px;
+	height:100%vh;
+	
+}
+
+.experience-section .year{
+	padding:20px;
+	color:#89D1FF;
+}
+.experience-section span,
+.experience-section a{
+	font-family:quick-sand;
+	font-weight:700;
+	line-height:1.7;
+	
+}
+.experience-section i{
+	font-size:40px;
+	padding:10px;
+
+}
+.experience-section a{
+	font-size:25px;
+}
+/*servises*/
+ .service-section h2{
+	 padding-top:50px;
+ }
+ .service .card{
+	 background:#bdc3c7;
+	 transition:1s all;
+ }
+.service .card:hover{
+	box-shadow:0px 15px 30px rgba(55,56,57,0.22);
+	filter:brightness(1.7);
+	color:#000;
+	transform:scale(1.1);
+}
+
+.img-filtering .btn{
+	padding:10px 20px;
+
+	list-style:none;
+
+
+	}
+	.img-filtering ul li{
+			display:inline-block;
+				margin-right:20px;
+				margin-top:5px;
+	}
+	.img-filtering .btn:focus{
+	outline:0;
+	}
+
+
+
